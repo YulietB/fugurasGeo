@@ -8,7 +8,7 @@ namespace fugurasGeo
 {
     class Triangulo : Figuras
     {
-        private float lado2;
+        private float lado1;
         private float altura;
         public float basebaja;
         public float Lado2   
