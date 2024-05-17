@@ -10,7 +10,7 @@ namespace fugurasGeo
     {
         private float lado2;
         private float altura;
-        public float basebaja;
+
         public float Lado2   
         {
             set
@@ -69,15 +69,15 @@ namespace fugurasGeo
                 return basebaja; //regresa o cacha el valor de la variable lado1
             }
         }
-        public Triangulo (float lado1,float lado2, float altura, float basebaja) 
+        public Triangulo (float lado1, float altura) 
         {  //la operacion que realiza es leer lo que ya se guardo en nuestra caja de texto
             this.Lado1 = lado1;// hace que unicamente el valor la
                                //cantidad del lado sea disponible
                                //para la clase triangulo, cuando no se usa triangulo
                                //la variable sera=0
-            this.Lado2 = lado2;
+            
             this.Altura = altura;
-            this.basebaja = basebaja;
+          
         }
         //vamos a usar los metodos de la clase padre
         //vamos a sobreescribir el comportamiento de estos
